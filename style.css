@@ -1,0 +1,42 @@
+body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f4f4f9;
+        }
+        .poll-option {
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            width: 120px;
+        }
+        button:hover { background: #0056b3; }
+        .bar-container {
+            background: #ddd;
+            border-radius: 4px;
+            margin-top: 5px;
+            position: relative;
+            height: 25px;
+        }
+        .bar {
+            background: #28a745;
+            height: 100%;
+            border-radius: 4px;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        .counter {
+            position: absolute;
+            right: 10px;
+            top: 3px;
+            font-weight: bold;
+        }
+        #status { font-style: italic; margin-bottom: 20px; color: gray;}
